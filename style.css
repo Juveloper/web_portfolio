@@ -112,7 +112,16 @@ p {
 .info-text{
     font-size: 1.1rem;
     color: var(--text-muted);
-    
+    line-height: 1.5;
+
+}
+
+.info-text.en{
+    margin-bottom: 16px;
+}
+
+.info-text.de{
+    margin-top: 16px;
 }
 
 
