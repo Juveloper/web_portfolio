@@ -1,3 +1,6 @@
+/* =========
+   Farbvariablen
+   ========= */
 :root {
   --bg-main: #f9fafb;
   --bg-dark: #0f172a;
@@ -10,11 +13,9 @@
   --accent-glow: #38bdf8;
 }
 
-
 /* =========
-   Basis / Reset
+   CSS Reset
    ========= */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -26,7 +27,7 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background:
     radial-gradient(circle at 20% 10%, rgba(56, 189, 248, 0.08), transparent 40%),
-    radial-gradient(circle at 80% 90%, rgba(37, 99, 235, 0.08), transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(235, 106, 37, 0.08), transparent 40%),
     var(--bg-main);
   color: var(--text-main);
   line-height: 1.6;
@@ -45,12 +46,6 @@ section {
   backdrop-filter: blur(8px);
 }
 
-
-
-/* =========
-   Typografie
-   ========= */
-
 h1 {
   font-size: 2.8rem;
   font-weight: 700;
@@ -64,9 +59,8 @@ h2 {
   border-left: 4px solid #2563eb;
 }
 
-
 /* =========
-   Klassische Hero-Sektion
+   Hero Bereich
    ========= */
 
 #hero {
@@ -82,7 +76,7 @@ h2 {
 }
 
 /* =========
-   Tech-Stack
+   Technologie Bereich
    ========= */
 
 #tech p {
@@ -117,7 +111,6 @@ h2 {
   background: linear-gradient(var(--accent-main), var(--accent-glow));
   border-radius: 2px;
 }
-
 
 .project-card:hover {
   transform: translateY(-4px);
