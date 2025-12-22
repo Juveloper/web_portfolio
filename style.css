@@ -2,15 +2,15 @@
    Design Variablen (Farben)
    ========================= */
 :root {
-  --bg-main: #0b1020;        /* Haupt-Hintergrund (sehr dunkel, Tech) */
-  --bg-section: #111827;     /* Sektionen leicht heller */
-  --bg-card: #0f172a;        /* Karten */
+  --bg-main: #0b1020;        
+  --bg-section: #111827;     
+  --bg-card: #0f172a;       
 
-  --text-main: #e5e7eb;      /* Haupttext */
-  --text-muted: #9ca3af;     /* Sekundärer Text */
+  --text-main: #e5e7eb;      
+  --text-muted: #9ca3af;     
 
-  --accent-main: #38bdf8;    /* Neon-Blau */
-  --accent-strong: #22d3ee;  /* Neon-Cyan */
+  --accent-main: #38bdf8;    
+  --accent-strong: #22d3ee;  
 }
 
 /* =========================
@@ -38,21 +38,19 @@ body {
    Globale Struktur
    ========================= */
 
-/* Jede Section nimmt viel Platz ein */
 section {
   width: 100%;
   padding: 100px 8vw;
   background-color: var(--bg-section);
 }
 
-/* Zentrierter Inhaltscontainer */
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
 /* =========================
-   Typografie
+   Typografie 
    ========================= */
 
 h1 {
@@ -76,7 +74,7 @@ p {
 }
 
 /* =========================
-   HERO / LANDING
+   HERO / LANDING 
    ========================= */
 
 #hero-about {
@@ -106,6 +104,18 @@ p {
   object-fit: cover;
   border: 2px solid var(--accent-main);
 }
+
+.about-me-info-text {
+  max-width: 600px;
+}
+
+.info-text{
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    
+}
+
+
 
 /* =========================
    Buttons
