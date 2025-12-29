@@ -7,7 +7,7 @@
   --text-hell: #9ca3af;
 
   --farbe: #38bdf8;
-  --neon: #7efbff;
+  --neon: #7df6fa;
 }
 
 * {
@@ -53,6 +53,15 @@ p {
   color: var(--text-hell);
 }
 
+a {
+  color: var(--neon);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 /* STARTSEITE */
 
 #startseite {
@@ -72,6 +81,10 @@ p {
   width: 260px;
   border-radius: 12px;
   border: 2px solid var(--farbe);
+}
+
+.kontakt{
+  padding-top: 10px;
 }
 
 /* BESCHREIBUNG */
@@ -124,4 +137,13 @@ p {
   justify-content: center;
 }
 
+.project-git-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+  color: var(--neon);
+}
+.project-git-link:hover {
+  text-decoration: underline;
+}
 
