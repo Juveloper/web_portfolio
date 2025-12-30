@@ -192,3 +192,17 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Mobile Ansicht */
+
+@media (max-width: 800px) {
+  #startseite .inhalt {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .start-bild {
+    display: flex;
+    justify-content: center;
+  }
+}
+
