@@ -1,7 +1,8 @@
 :root {
-  --hintergrund: #0b1020;
+  --hintergrund: #0c1223;
   --bereich: #111827;
   --karte: #0f172a;
+  --footer: #091221;
 
   --text: #e5e7eb;
   --text-hell: #9ca3af;
@@ -152,6 +153,42 @@ a:hover {
   color: var(--neon);
 }
 .project-git-link:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--footer);
+  border-top: 1px solid rgba(56, 189, 248, 0.15);
+  padding: 40px 8vw;
+}
+
+.footer-inhalt {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-name {
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.footer-info {
+  font-size: 0.85rem;
+  color: var(--text-hell);
+  margin-bottom: 16px;
+}
+
+.footer-links a {
+  color: var(--neon);
+  font-size: 0.9rem;
+  margin: 0 8px;
+}
+
+.footer-links a:hover {
   text-decoration: underline;
 }
 
