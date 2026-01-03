@@ -108,8 +108,14 @@ a:hover {
 
 /* PROJEKTE */
 
+.projects-header {
+  background-color: var(--bereich);
+  border-bottom: 1px solid rgba(56, 189, 248, 0.15);
+}
+
 .einleitung {
   padding-bottom: 40px;
+  padding-top: 20px;
 }
 
 .projekt-bereich {
