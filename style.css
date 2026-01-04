@@ -1,7 +1,7 @@
 :root {
   --hintergrund: #0c1223;
   --bereich: #111827;
-  --karte: #0f172a;
+  --project-box: #0f172a;
   --footer: #091221;
 
   --text: #e5e7eb;
@@ -134,7 +134,7 @@ a:hover {
 }
 
 .projekt-box {
-  background-color: var(--karte);
+  background-color: var(--project-box);
   padding: 36px;
   border: 2px solid rgba(56, 189, 248, 0.3);
   transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
