@@ -4,10 +4,10 @@
   --project-box: #0f172a;
   --footer: #091221;
 
-  --text: #e5e7eb;
-  --text-hell: #9ca3af;
+  --text-hell: #ffffff;
+  --text: #aab0b9;
 
-  --farbe: #38bdf8;
+  --h_farbe: #38bdf8;
   --neon: #7df6fa;
 }
 
@@ -31,17 +31,18 @@ section {
 
 h1 {
   font-size: 4rem;
-  color: var(--farbe);
+  color: var(--h_farbe);
 }
 
 h2 {
   margin-bottom: 40px;
   letter-spacing: 2px;
+  color: var(--text);
 }
 
 h3 {
   margin-bottom: 16px;
-  color: var(--farbe)
+  color: var(--h_farbe)
 }
 
 p {
@@ -70,12 +71,12 @@ a:hover {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
   gap: 64px;
-}
+} 
 
 .start-bild img {
   width: 260px;
   border-radius: 12px;
-  border: 2px solid var(--farbe);
+  border: 2px solid var(--h_farbe);
 }
 
 .kontakt{
@@ -95,27 +96,39 @@ a:hover {
 .button {
   display: inline-block;
   padding: 16px 36px;
-  border: 2px solid var(--farbe);
-  color: var(--farbe);
+  border: 2px solid var(--h_farbe);
+  color: var(--h_farbe);
   text-decoration: none;
   margin-top: 24px;
 }
 
 .button:hover {
-  background-color: var(--farbe);
+  background-color: var(--h_farbe);
   color: var(--hintergrund);
 }
 
 /* PROJEKTE */
 
 .projects-header {
-  background-color: var(--bereich);
-  border-bottom: 1px solid rgba(56, 189, 248, 0.15);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 24px 0;
+  background-color: var(--project-box);
+  border-bottom: 1px solid rgba(56, 191, 248, 0.21);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+}
+
+.header-h1 {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .einleitung {
   padding-bottom: 40px;
-  padding-top: 20px;
+  margin-top: 80px;
 }
 
 .projekt-bereich {
